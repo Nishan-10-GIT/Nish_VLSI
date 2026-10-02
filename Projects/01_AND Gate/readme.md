@@ -78,3 +78,26 @@ The design was successfully implemented.
 - RTL Simulation
 - Synthesis
 - Implementation
+
+  ---
+
+  ## 📁 Project Structure
+
+```text
+01-AND_gate/
+├── README.md
+├── rtl/
+│   └── and_gate.v
+├── testbench/
+│   └── and_gate_tb.v
+├── simulation/
+│   ├── waveform.png
+│   └── simulation-files
+├── synthesis/
+│   ├── synthesis.png
+│   └── synthesis-files
+└── implementation/
+    ├── implementation.png
+    └── implementation-files
+```
+
