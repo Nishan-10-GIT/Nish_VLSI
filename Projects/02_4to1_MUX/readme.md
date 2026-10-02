@@ -84,6 +84,3 @@ The design was successfully implemented using the Vivado implementation flow.
 * RTL Simulation
 * Synthesis
 * Implementation
-
-    └── implementation-files
-```
