@@ -15,7 +15,7 @@ To design, simulate, synthesize, and implement a basic
 
 ### Verilog Code
 
-[View `and_gate.v`](rtl/and_gate.v)
+[View `and_gate.v`](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/RTL/and_gate.v)
 
 The RTL describes a 2-input AND gate with inputs `A` and `B`
 and output `Y`.
@@ -26,7 +26,7 @@ and output `Y`.
 
 ### Testbench Code
 
-[View `and_gate_tb.v`](testbench/and_gate_tb.v)
+[View `and_gate_tb.v`](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Testbench/AND_gate_tb.v)
 
 The testbench applies all possible combinations of inputs:
 
@@ -43,7 +43,7 @@ The testbench applies all possible combinations of inputs:
 
 ### Waveform
 
-![Simulation Waveform](waveform/waveform.png)
+![Simulation Waveform](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Simulation/Simulation.png)
 
 The waveform confirms that the output follows the expected
 AND-gate truth table.
@@ -54,7 +54,7 @@ AND-gate truth table.
 
 ### Synthesized Design
 
-![Synthesis](synthesis/synthesis.png)
+![Synthesis](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Synthesis/Synthesis.png)
 
 The RTL was successfully synthesized in Vivado.
 
@@ -64,7 +64,7 @@ The RTL was successfully synthesized in Vivado.
 
 ### Implemented Design
 
-![Implementation](implementation/implementation.png)
+![Implementation](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Schematic/Schematic.png)
 
 The design was successfully implemented.
 
