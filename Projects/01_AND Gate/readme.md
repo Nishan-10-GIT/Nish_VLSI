@@ -54,7 +54,7 @@ AND-gate truth table.
 
 ### Synthesized Design
 
-![Synthesis](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Synthesis/Synthesis.png)
+![Synthesis](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Schematic/Schematic.png)
 
 The RTL was successfully synthesized in Vivado.
 
@@ -64,7 +64,8 @@ The RTL was successfully synthesized in Vivado.
 
 ### Implemented Design
 
-![Implementation](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Schematic/Schematic.png)
+![Implementation](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Synthesis/Synthesis.png)
+
 
 The design was successfully implemented.
 
