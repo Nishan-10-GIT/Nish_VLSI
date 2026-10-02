@@ -84,3 +84,22 @@ The design was successfully implemented using the Vivado implementation flow.
 * RTL Simulation
 * Synthesis
 * Implementation
+
+  ---
+
+  📁 Project Structure
+02-4to1-MUX/
+├── README.md
+├── rtl/
+│   └── mux_4to1.v
+├── testbench/
+│   └── mux_4to1_tb.v
+├── simulation/
+│   ├── waveform.png
+│   └── simulation-files
+├── synthesis/
+│   ├── synthesis.png
+│   └── synthesis-files
+└── implementation/
+    ├── implementation.png
+    └── implementation-files
