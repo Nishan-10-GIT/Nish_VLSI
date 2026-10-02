@@ -87,7 +87,9 @@ The design was successfully implemented using the Vivado implementation flow.
 
   ---
 
-  📁 Project Structure
+## 📁 Project Structure
+
+```text
 02-4to1-MUX/
 ├── README.md
 ├── rtl/
@@ -103,3 +105,5 @@ The design was successfully implemented using the Vivado implementation flow.
 └── implementation/
     ├── implementation.png
     └── implementation-files
+```
+
