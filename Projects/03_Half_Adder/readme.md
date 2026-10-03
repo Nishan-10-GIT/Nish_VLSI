@@ -59,7 +59,7 @@ The testbench applies all possible combinations of the two inputs and verifies t
 
 The simulation waveform confirms that the Half Adder produces the expected Sum and Carry outputs for all input combinations.
 
-[View Simulation Files →](simulation/)
+[View Simulation Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/03_Half_Adder/Simulation/Simulation.png)
 
 ---
 
@@ -67,7 +67,7 @@ The simulation waveform confirms that the Half Adder produces the expected Sum a
 
 ### Schematic
 
-![RTL Schematic](schematic/schematic.png)
+![RTL Schematic](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/03_Half_Adder/Schematic/Schematic.png)
 
 The generated schematic represents the hardware structure described by the Verilog RTL.
 
