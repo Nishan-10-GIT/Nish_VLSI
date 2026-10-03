@@ -49,7 +49,7 @@ The testbench verifies the MUX by applying different combinations of input and s
 
 The simulation waveform verifies that the output correctly follows the input selected by `S1` and `S0`.
 
-[View Simulation Files →](simulation/)
+[View Simulation Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/02_4to1_MUX/Simulation/Simulation.png)
 
 ---
 
@@ -61,7 +61,7 @@ The simulation waveform verifies that the output correctly follows the input sel
 
 The RTL design was successfully synthesized using Vivado.
 
-[View Synthesis Files →](synthesis/)
+[View Synthesis Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/02_4to1_MUX/Schematic/Schematic.png)
 
 ---
 
