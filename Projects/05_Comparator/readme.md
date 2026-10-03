@@ -52,7 +52,7 @@ The testbench applies different combinations of input values and verifies the co
 
 The simulation waveform confirms that the comparator correctly identifies the relationship between the two input values.
 
-[View Simulation Files →](simulation/)
+[View Simulation Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/05_Comparator/Simulation/Simulation.png)
 
 ---
 
@@ -64,7 +64,7 @@ The simulation waveform confirms that the comparator correctly identifies the re
 
 The generated RTL schematic represents the hardware structure described by the Verilog design.
 
-[View Schematic Files →](schematic/)
+[View Schematic Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/05_Comparator/Schematic/Schematic.png)
 
 ---
 
