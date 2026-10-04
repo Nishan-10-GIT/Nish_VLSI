@@ -20,13 +20,13 @@ The comparator determines whether one input is:
 
 ### Verilog Code
 
-[View RTL Source →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/05_Comparator/RTL/Comparator.v)
+[View RTL Source →](RTL/Comparator.v)
 
 The RTL design compares two input signals and produces outputs indicating the relationship between them.
 
 ### Logic
 
-```text
+```text id="9wn5nq"
 A > B  →  Greater
 A = B  →  Equal
 A < B  →  Less
@@ -38,7 +38,7 @@ A < B  →  Less
 
 ### Testbench Code
 
-[View Testbench →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/05_Comparator/Testbench/Comparator_tb.v)
+[View Testbench →](Testbench/Comparator_tb.v)
 
 The testbench applies different combinations of input values and verifies the comparator outputs for each case.
 
@@ -48,11 +48,11 @@ The testbench applies different combinations of input values and verifies the co
 
 ### Waveform
 
-![Simulation Waveform](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/05_Comparator/Simulation/Simulation.png)
+![Simulation Waveform](Simulation/Simulation.png)
 
 The simulation waveform confirms that the comparator correctly identifies the relationship between the two input values.
 
-[View Simulation Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/05_Comparator/Simulation/Simulation.png)
+[View Simulation File →](Simulation/Simulation.png)
 
 ---
 
@@ -60,11 +60,11 @@ The simulation waveform confirms that the comparator correctly identifies the re
 
 ### Schematic
 
-![RTL Schematic](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/05_Comparator/Schematic/Schematic.png)
+![RTL Schematic](Schematic/Schematic.png)
 
 The generated RTL schematic represents the hardware structure described by the Verilog design.
 
-[View Schematic Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/05_Comparator/Schematic/Schematic.png)
+[View Schematic →](Schematic/Schematic.png)
 
 ---
 
@@ -79,15 +79,15 @@ The generated RTL schematic represents the hardware structure described by the V
 
 ## 📁 Project Structure
 
-```text
-05-Comparator/
-├── README.md
-├── rtl/
-│   └── comparator.v
-├── testbench/
-│   └── comparator_tb.v
-├── simulation/
-│   └── waveform.png
-└── schematic/
-    └── schematic.png
+```text id="j4d8xq"
+05_Comparator/
+├── readme.md
+├── RTL/
+│   └── Comparator.v
+├── Testbench/
+│   └── Comparator_tb.v
+├── Simulation/
+│   └── Simulation.png
+└── Schematic/
+    └── Schematic.png
 ```
