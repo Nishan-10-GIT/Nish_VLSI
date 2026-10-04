@@ -16,13 +16,13 @@ The counter increments its stored value on each active clock edge.
 
 ### Verilog Code
 
-[View RTL Source →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/09_Counter/RTL/Counter.v)
+[View RTL Source →](RTL/Counter.v)
 
 The RTL design uses a clock signal to update the counter value sequentially.
 
 ### Operation
 
-```text
+```text id="k4m2pt"
 At every active clock edge:
 
 Counter ← Counter + 1
@@ -36,7 +36,7 @@ The counter retains its current value between clock edges.
 
 ### Testbench Code
 
-[View Testbench →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/09_Counter/Testbench/counter_tb.v)
+[View Testbench →](Testbench/counter_tb.v)
 
 The testbench generates the clock signal and observes the counter output over multiple clock cycles to verify the counting sequence.
 
@@ -46,11 +46,11 @@ The testbench generates the clock signal and observes the counter output over mu
 
 ### Waveform
 
-![Simulation Waveform](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/09_Counter/Simulation/Simulation.png)
+![Simulation Waveform](Simulation/Simulation.png)
 
 The simulation waveform demonstrates the counter incrementing its value sequentially with each active clock edge.
 
-[View Simulation Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/09_Counter/Simulation/Simulation.png)
+[View Simulation File →](Simulation/Simulation.png)
 
 ---
 
@@ -58,11 +58,11 @@ The simulation waveform demonstrates the counter incrementing its value sequenti
 
 ### Schematic
 
-![RTL Schematic](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/09_Counter/Schematic/Schematic.png)
+![RTL Schematic](Schematic/Schematic.png)
 
 The generated RTL schematic represents the sequential hardware structure described by the Verilog design.
 
-[View Schematic Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/09_Counter/Schematic/Schematic.png)
+[View Schematic →](Schematic/Schematic.png)
 
 ---
 
@@ -77,15 +77,15 @@ The generated RTL schematic represents the sequential hardware structure describ
 
 ## 📁 Project Structure
 
-```text id="p2y1fw"
-09-Counter/
-├── README.md
-├── rtl/
-│   └── counter.v
-├── testbench/
+```text id="r8j3vn"
+09_Counter/
+├── readme.md
+├── RTL/
+│   └── Counter.v
+├── Testbench/
 │   └── counter_tb.v
-├── simulation/
-│   └── waveform.png
-└── schematic/
-    └── schematic.png
+├── Simulation/
+│   └── Simulation.png
+└── Schematic/
+    └── Schematic.png
 ```
