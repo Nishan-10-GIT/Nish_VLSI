@@ -19,7 +19,7 @@ A Half Adder produces two outputs:
 
 ### Verilog Code
 
-[View RTL Source →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/03_Half_Adder/RTL/Half_Adder.v)
+[View RTL Source →](RTL/Half_Adder.v)
 
 The RTL design uses two 1-bit inputs (`A` and `B`) and produces `Sum` and `Carry` outputs.
 
@@ -45,7 +45,7 @@ Carry = A · B
 
 ### Testbench Code
 
-[View Testbench →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/03_Half_Adder/Testbench/Half_Adder_tb.v)
+[View Testbench →](Testbench/Half_Adder_tb.v)
 
 The testbench applies all possible combinations of the two inputs and verifies the resulting `Sum` and `Carry` outputs.
 
@@ -55,11 +55,11 @@ The testbench applies all possible combinations of the two inputs and verifies t
 
 ### Waveform
 
-![Simulation Waveform](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/03_Half_Adder/Simulation/Simulation.png)
+![Simulation Waveform](Simulation/Simulation.png)
 
 The simulation waveform confirms that the Half Adder produces the expected Sum and Carry outputs for all input combinations.
 
-[View Simulation Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/03_Half_Adder/Simulation/Simulation.png)
+[View Simulation File →](Simulation/Simulation.png)
 
 ---
 
@@ -67,11 +67,11 @@ The simulation waveform confirms that the Half Adder produces the expected Sum a
 
 ### Schematic
 
-![RTL Schematic](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/03_Half_Adder/Schematic/Schematic.png)
+![RTL Schematic](Schematic/Schematic.png)
 
 The generated schematic represents the hardware structure described by the Verilog RTL.
 
-[View Schematic Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/03_Half_Adder/Schematic/Schematic.png)
+[View Schematic →](Schematic/Schematic.png)
 
 ---
 
@@ -87,14 +87,14 @@ The generated schematic represents the hardware structure described by the Veril
 ## 📁 Project Structure
 
 ```text
-03-Half-Adder/
-├── README.md
-├── rtl/
-│   └── half_adder.v
-├── testbench/
-│   └── half_adder_tb.v
-├── simulation/
-│   └── waveform.png
-└── schematic/
-    └── schematic.png
+03_Half_Adder/
+├── readme.md
+├── RTL/
+│   └── Half_Adder.v
+├── Testbench/
+│   └── Half_Adder_tb.v
+├── Simulation/
+│   └── Simulation.png
+└── Schematic/
+    └── Schematic.png
 ```
