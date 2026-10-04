@@ -16,7 +16,7 @@ A 4:1 MUX selects one of four input signals based on two select lines and passes
 
 ### Verilog Code
 
-[View RTL Source →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/02_4to1_MUX/RTL/4to1_MUX.v)
+[View RTL Source →](RTL/4to1_MUX.v)
 
 The RTL design uses four input signals (`I0`, `I1`, `I2`, `I3`), two select lines (`S0`, `S1`), and one output (`Y`).
 
@@ -35,7 +35,7 @@ The RTL design uses four input signals (`I0`, `I1`, `I2`, `I3`), two select line
 
 ### Testbench Code
 
-[View Testbench →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/02_4to1_MUX/Testbench/4to1_MUX_tb.v)
+[View Testbench →](Testbench/4to1_MUX_tb.v)
 
 The testbench verifies the MUX by applying different combinations of input and select signals and checking the corresponding output.
 
@@ -45,35 +45,35 @@ The testbench verifies the MUX by applying different combinations of input and s
 
 ### Waveform
 
-![Simulation Waveform](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/02_4to1_MUX/Simulation/Simulation.png)
+![Simulation Waveform](Simulation/Simulation.png)
 
 The simulation waveform verifies that the output correctly follows the input selected by `S1` and `S0`.
 
-[View Simulation Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/02_4to1_MUX/Simulation/Simulation.png)
+[View Simulation File →](Simulation/Simulation.png)
 
 ---
 
 ## ⚙️ 4. Synthesis
 
-### Synthesized Design
+### RTL Schematic
 
-![Synthesis Result](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/02_4to1_MUX/Schematic/Schematic.png)
+![RTL Schematic](Schematic/Schematic.png)
 
-The RTL design was successfully synthesized using Vivado.
+The RTL design was successfully synthesized and analyzed using Vivado.
 
-[View Synthesis Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/02_4to1_MUX/Schematic/Schematic.png)
+[View Schematic →](Schematic/Schematic.png)
 
 ---
 
 ## 🔧 5. Implementation
 
-### Implemented Design
+### Synthesis Result
 
-![Implementation Result](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/02_4to1_MUX/Synthesis/Synthesis.png)
+![Synthesis Result](Synthesis/Synthesis.png)
 
-The design was successfully implemented using the Vivado implementation flow.
+The design was successfully taken through the Vivado implementation flow.
 
-[View Implementation Files →](implementation/)
+[View Synthesis Result →](Synthesis/Synthesis.png)
 
 ---
 
@@ -85,25 +85,21 @@ The design was successfully implemented using the Vivado implementation flow.
 * Synthesis
 * Implementation
 
-  ---
+---
 
 ## 📁 Project Structure
 
 ```text
-02-4to1-MUX/
-├── README.md
-├── rtl/
-│   └── mux_4to1.v
-├── testbench/
-│   └── mux_4to1_tb.v
-├── simulation/
-│   ├── waveform.png
-│   └── simulation-files
-├── synthesis/
-│   ├── synthesis.png
-│   └── synthesis-files
-└── implementation/
-    ├── implementation.png
-    └── implementation-files
+02_4to1_MUX/
+├── readme.md
+├── RTL/
+│   └── 4to1_MUX.v
+├── Testbench/
+│   └── 4to1_MUX_tb.v
+├── Simulation/
+│   └── Simulation.png
+├── Schematic/
+│   └── Schematic.png
+└── Synthesis/
+    └── Synthesis.png
 ```
-
