@@ -19,13 +19,13 @@ A Full Adder adds two binary inputs along with a carry input and produces two ou
 
 ### Verilog Code
 
-[View RTL Source →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/04_Full_Adder/RTL/Full_Adder.v)
+[View RTL Source →](RTL/Full_Adder.v)
 
 The RTL design uses three 1-bit inputs (`A`, `B`, and `Cin`) and produces `Sum` and `Cout` outputs.
 
 ### Logic
 
-```text
+```text id="tx8wqq"
 Sum  = A ⊕ B ⊕ Cin
 
 Cout = (A · B) + (A · Cin) + (B · Cin)
@@ -50,7 +50,7 @@ Cout = (A · B) + (A · Cin) + (B · Cin)
 
 ### Testbench Code
 
-[View Testbench →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/04_Full_Adder/Testbench/Full_Adder_tb.v)
+[View Testbench →](Testbench/Full_Adder_tb.v)
 
 The testbench applies all possible combinations of the three inputs and verifies the resulting `Sum` and `Cout` outputs.
 
@@ -60,12 +60,11 @@ The testbench applies all possible combinations of the three inputs and verifies
 
 ### Waveform
 
-![Simulation Waveform](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/04_Full_Adder/Simulation/Simulation.png)
+![Simulation Waveform](Simulation/Simulation.png)
 
 The simulation waveform confirms that the Full Adder produces the expected Sum and Carry outputs for all input combinations.
 
-[View Simulation Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/04_Full_Adder/Simulation/Simulation.png)
-
+[View Simulation File →](Simulation/Simulation.png)
 
 ---
 
@@ -73,11 +72,11 @@ The simulation waveform confirms that the Full Adder produces the expected Sum a
 
 ### Schematic
 
-![RTL Schematic](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/04_Full_Adder/Schematic/Schematic.png)
+![RTL Schematic](Schematic/Schematic.png)
 
 The generated schematic represents the hardware structure described by the Verilog RTL.
 
-[View Schematic Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/04_Full_Adder/Schematic/Schematic.png)
+[View Schematic →](Schematic/Schematic.png)
 
 ---
 
@@ -92,15 +91,15 @@ The generated schematic represents the hardware structure described by the Veril
 
 ## 📁 Project Structure
 
-```text
-04-Full-Adder/
-├── README.md
-├── rtl/
-│   └── full_adder.v
-├── testbench/
-│   └── full_adder_tb.v
-├── simulation/
-│   └── waveform.png
-└── schematic/
-    └── schematic.png
+```text id="yq3b2d"
+04_Full_Adder/
+├── readme.md
+├── RTL/
+│   └── Full_Adder.v
+├── Testbench/
+│   └── Full_Adder_tb.v
+├── Simulation/
+│   └── Simulation.png
+└── Schematic/
+    └── Schematic.png
 ```
