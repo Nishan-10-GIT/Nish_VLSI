@@ -6,8 +6,7 @@ A basic 2-input AND gate designed using Verilog HDL and taken through the comple
 
 ## 🎯 Objective
 
-To design, simulate, synthesize, and implement a basic
-2-input AND gate using Verilog.
+To design, simulate, synthesize, and implement a basic 2-input AND gate using Verilog.
 
 ---
 
@@ -15,10 +14,9 @@ To design, simulate, synthesize, and implement a basic
 
 ### Verilog Code
 
-[View `and_gate.v`](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/RTL/and_gate.v)
+[View `and_gate.v`](RTL/and_gate.v)
 
-The RTL describes a 2-input AND gate with inputs `A` and `B`
-and output `Y`.
+The RTL describes a 2-input AND gate with inputs `A` and `B` and output `Y`.
 
 ---
 
@@ -26,16 +24,16 @@ and output `Y`.
 
 ### Testbench Code
 
-[View `and_gate_tb.v`](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Testbench/AND_gate_tb.v)
+[View `AND_gate_tb.v`](Testbench/AND_gate_tb.v)
 
 The testbench applies all possible combinations of inputs:
 
 | A | B | Expected Y |
-|---|---|------------|
-| 0 | 0 | 0 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 1 |
+| - | - | ---------- |
+| 0 | 0 | 0          |
+| 0 | 1 | 0          |
+| 1 | 0 | 0          |
+| 1 | 1 | 1          |
 
 ---
 
@@ -43,10 +41,9 @@ The testbench applies all possible combinations of inputs:
 
 ### Waveform
 
-![Simulation Waveform](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Simulation/Simulation.png)
+![Simulation Waveform](Simulation/Simulation.png)
 
-The waveform confirms that the output follows the expected
-AND-gate truth table.
+The waveform confirms that the output follows the expected AND-gate truth table.
 
 ---
 
@@ -54,7 +51,7 @@ AND-gate truth table.
 
 ### Synthesized Design
 
-![Synthesis](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Schematic/Schematic.png)
+![Synthesis](Synthesis/Synthesis.png)
 
 The RTL was successfully synthesized in Vivado.
 
@@ -64,8 +61,7 @@ The RTL was successfully synthesized in Vivado.
 
 ### Implemented Design
 
-![Implementation](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/01_AND%20Gate/Synthesis/Synthesis.png)
-
+![Implementation](Schematic/Schematic.png)
 
 The design was successfully implemented.
 
@@ -73,31 +69,27 @@ The design was successfully implemented.
 
 ## 🛠️ Tools Used
 
-- Verilog HDL
-- AMD Vivado
-- RTL Simulation
-- Synthesis
-- Implementation
+* Verilog HDL
+* AMD Vivado
+* RTL Simulation
+* Synthesis
+* Implementation
 
-  ---
+---
 
-  ## 📁 Project Structure
+## 📁 Project Structure
 
 ```text
-01-AND_gate/
-├── README.md
-├── rtl/
+01_AND Gate/
+├── readme.md
+├── RTL/
 │   └── and_gate.v
-├── testbench/
-│   └── and_gate_tb.v
-├── simulation/
-│   ├── waveform.png
-│   └── simulation-files
-├── synthesis/
-│   ├── synthesis.png
-│   └── synthesis-files
-└── implementation/
-    ├── implementation.png
-    └── implementation-files
+├── Testbench/
+│   └── AND_gate_tb.v
+├── Simulation/
+│   └── Simulation.png
+├── Schematic/
+│   └── Schematic.png
+└── Synthesis/
+    └── Synthesis.png
 ```
-
