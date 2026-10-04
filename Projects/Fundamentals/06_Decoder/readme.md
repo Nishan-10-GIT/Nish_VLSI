@@ -16,7 +16,7 @@ A decoder activates one specific output line based on the binary value of the in
 
 ### Verilog Code
 
-[View RTL Source →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/06_Decoder/RTL/Decoder.v)
+[View RTL Source →](RTL/Decoder.v)
 
 The RTL design accepts a binary input and generates the corresponding decoded output.
 
@@ -35,7 +35,7 @@ The RTL design accepts a binary input and generates the corresponding decoded ou
 
 ### Testbench Code
 
-[View Testbench →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/06_Decoder/Testbench/Decoder_tb.v)
+[View Testbench →](Testbench/Decoder_tb.v)
 
 The testbench applies all possible input combinations and verifies that the corresponding output line is activated.
 
@@ -45,11 +45,11 @@ The testbench applies all possible input combinations and verifies that the corr
 
 ### Waveform
 
-![Simulation Waveform](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/06_Decoder/Simulation/Simulation.png)
+![Simulation Waveform](Simulation/Simulation.png)
 
 The simulation waveform confirms that the decoder activates the correct output for each binary input combination.
 
-[View Simulation Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/06_Decoder/Simulation/Simulation.png)
+[View Simulation File →](Simulation/Simulation.png)
 
 ---
 
@@ -57,11 +57,11 @@ The simulation waveform confirms that the decoder activates the correct output f
 
 ### Schematic
 
-![RTL Schematic](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/06_Decoder/Schematic/Schematic.png)
+![RTL Schematic](Schematic/Schematic.png)
 
 The generated RTL schematic represents the hardware structure described by the Verilog design.
 
-[View Schematic Files →](https://github.com/Nishan-10-GIT/Nish_VLSI/blob/main/Projects/06_Decoder/Schematic/Schematic.png)
+[View Schematic →](Schematic/Schematic.png)
 
 ---
 
@@ -77,14 +77,14 @@ The generated RTL schematic represents the hardware structure described by the V
 ## 📁 Project Structure
 
 ```text
-06-Decoder/
-├── README.md
-├── rtl/
-│   └── decoder.v
-├── testbench/
-│   └── decoder_tb.v
-├── simulation/
-│   └── waveform.png
-└── schematic/
-    └── schematic.png
+06_Decoder/
+├── readme.md
+├── RTL/
+│   └── Decoder.v
+├── Testbench/
+│   └── Decoder_tb.v
+├── Simulation/
+│   └── Simulation.png
+└── Schematic/
+    └── Schematic.png
 ```
